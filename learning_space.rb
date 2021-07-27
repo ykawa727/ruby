@@ -63,20 +63,28 @@
 # p count
 # わかんない
 
-N = gets.to_i
-s = gets.chomp.split.map(&:to_i)
-min = 99
+# N = gets.to_i
+# s = gets.chomp.split.map(&:to_i)
+# min = 99
 
-N.times do |num|  
-	cnt = 0
-	while s[num]%2 == 0 do
-		cnt += 1
-		s[num] /= 2
-	end
+# N.times do |num|  
+# 	cnt = 0
+# 	while s[num]%2 == 0 do
+# 		cnt += 1
+# 		s[num] /= 2
+# 	end
 
-	if(cnt < min) then
-		min = cnt
-	end
-end
+# 	if(cnt < min) then
+# 		min = cnt
+# 	end
+# end
 
-puts min
+# puts min
+
+
+#ABC087B - Coins
+# A = gets.to_i
+# B = gets.to_i
+# C = gets.to_i
+# X = gets.to_i
+# count = 0
